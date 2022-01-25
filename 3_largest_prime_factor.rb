@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# finds largest prime factor of a given number
 def largest_prime_factor(num, factors = [])
   return factors.max if num < 3
 

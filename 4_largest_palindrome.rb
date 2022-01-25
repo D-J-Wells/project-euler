@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+# finds largest palindromic number that is a product of two numbers with the
+# same number of digits as, and less than or equal to, the input number
 def largest_palindrome(max_num, pal = 0)
   return pal if max_num.zero?
 
